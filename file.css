@@ -1,0 +1,41 @@
+.f-container{
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+
+.f-items{
+background-color:lightgray ;
+border: 3px solid red;
+width: 350px;
+height: 370px;
+margin: 20px;
+text-align: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+flex-direction: row;
+}
+h1{
+    text-align: center;
+    text-decoration-line: underline;
+}
+body{
+    background-image: url(luca-bravo-ESkw2ayO2As-unsplash.jpg);
+background-repeat:no-repeat ;
+background-size: cover;
+flex-basis: 60%;
+opacity: 0.8;
+}
+h3
+{
+    text-decoration-line: underline 
+    ;color: darkcyan;
+}
+button{
+   size: 4px;
+   background-color: chartreuse;
+}
+p{
+ color: purple;
+}   
